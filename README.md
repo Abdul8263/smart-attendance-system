@@ -1,27 +1,22 @@
 # Smart Attendance System
 
-A simple web app to manage student attendance with authentication and roles (admin, teacher, student).
+A simple Node.js + Express + MongoDB-based Smart Attendance System with role-based authentication.
 
-## Features
+---
 
-- User Registration & Login.
-- Role-based access (Admin, Teacher, Student).
-- Admin and Teacher can mark attendance.
-- Students can view their own attendance.
-- JWT based secure API authentication.
-- Simple frontend with Login, Register, Dashboard pages.
+## 📦 Features
 
-## Tech Stack
+- User Registration & Login
+- JWT-based secure authentication
+- Role-based authorization (`student`, `teacher`, `admin`)
+- Mark and view attendance
+- Admin/Teacher can mark/view all records
 
-- Node.js
-- Express.js
-- MongoDB with Mongoose
-- JWT Authentication
-- Frontend (HTML + JS + Fetch API)
+---
 
-## Installation
+## 🔧 Installation & Setup
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/smart-attendance-system.git
+   ```bash
+   git clone https://github.com/yourusername/smart-attendance-system.git
+   cd smart-attendance-system
